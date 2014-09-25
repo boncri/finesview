@@ -55,3 +55,5 @@ end
 group :staging, :production do
   gem 'pg'
 end
+
+gem 'puma'
