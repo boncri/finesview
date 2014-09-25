@@ -4,6 +4,8 @@ Fiensview::Application.routes.draw do
     get 'search', to: 'fines#search_form', on: :collection, as: :search_form
   end
 
+  root 'fines#index'
+
 #  resources :fines, except: :index do
 #    post '/', to: 'fines#search', on: :collection, as: :search
 #    get '/', to: 'fines#search_form', on: :collection, as: :search_form
