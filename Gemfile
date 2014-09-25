@@ -53,5 +53,5 @@ group :development do
 end
 
 group :staging, :production do
-  gem 'pg:'
+  gem 'pg'
 end
