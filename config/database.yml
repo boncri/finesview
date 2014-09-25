@@ -19,7 +19,7 @@ test:
   timeout: 5000
 
 staging:
-  adapter: postgresqk
+  adapter: postgresql
   database: finesview
   host: localhost
   username: developer
