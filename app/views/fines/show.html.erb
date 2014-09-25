@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Number:</strong>
+  <%= @fine.number %>
+</p>
+
+<p>
+  <strong>Plate:</strong>
+  <%= @fine.plate %>
+</p>
+
+<p>
+  <strong>Taken at:</strong>
+  <%= @fine.taken_at %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @fine.amount %>
+</p>
+
+<%= link_to 'Edit', edit_fine_path(@fine) %> |
+<%= link_to 'Back', fines_path %>

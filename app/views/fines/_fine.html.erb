@@ -1,0 +1,9 @@
+<tr>
+  <td><%= fine.number %></td>
+  <td><%= fine.plate %></td>
+  <td><%= fine.taken_at %></td>
+  <td><%= fine.amount %></td>
+  <td><%= link_to 'Show', fine %></td>
+  <td><%= link_to 'Edit', edit_fine_path(fine) %></td>
+  <td><%= link_to 'Destroy', fine, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+</tr>

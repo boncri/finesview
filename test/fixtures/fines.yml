@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  number: MyString
+  plate: MyString
+  taken_at: 2013-12-04 18:16:34
+  amount: 
+
+two:
+  number: MyString
+  plate: MyString
+  taken_at: 2013-12-04 18:16:34
+  amount: 
