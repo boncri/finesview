@@ -9,7 +9,6 @@ set :puma_workers, 0
 # Don't change these unless you know what you're doing
 set :pty, true
 set :use_sudo, false
-set :stage, :staging
 set :deploy_via, :remote_cache
 set :deploy_to, "/opt/rails/#{fetch(:application)}"
 set :puma_bind, "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
@@ -21,6 +20,9 @@ set :puma_error_log, "#{release_path}/log/puma.access.log"
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true # Change to true if using ActiveRecord
+
+set :puma_jungle_conf, '/etc/puma.conf'
+set :puma_run_path, '/usr/local/bin/run-puma'
 
 ## Defaults:
 # set :scm, :git
