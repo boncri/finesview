@@ -21,9 +21,6 @@ set :puma_preload_app, true
 set :puma_worker_timeout, nil
 set :puma_init_active_record, true # Change to true if using ActiveRecord
 
-set :puma_jungle_conf, '/etc/puma.conf'
-set :puma_run_path, '/usr/local/bin/run-puma'
-
 ## Defaults:
 # set :scm, :git
 # set :branch, :master
