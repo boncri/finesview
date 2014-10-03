@@ -2,7 +2,7 @@ development:
   customer: 'MICKEY MOUSE'
 
 staging:
-  customer: 'MICKEY MOUSE'
+  customer: 'MINNIE'
 
 production:
   customer: 'MICKEY MOUSE'
