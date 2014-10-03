@@ -1,0 +1,12 @@
+development:
+  customer: 'MICKEY MOUSE'
+
+staging:
+  customer: 'MICKEY MOUSE'
+
+production:
+  customer: 'MICKEY MOUSE'
+
+test:
+  customer: 'MICKEY MOUSE'
+
